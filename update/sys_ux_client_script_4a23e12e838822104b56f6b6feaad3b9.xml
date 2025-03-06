@@ -26,7 +26,8 @@ function handler({
     // Get current client state parameter values
     var cspListQuery = api.state.listQuery;
     var cspListTitle = api.state.listTitle;
-
+console.log('cspListQuery:'+cspListQuery);
+console.log('cspListTitle:'+cspListTitle);
     // Clear Request type from existing query by splitting on the parameter 
     // in the encoded query
     var cspListQueryArray = cspListQuery.split('^u_request_type=');
@@ -34,10 +35,13 @@ function handler({
     // Clear Request type from existing title
     var cspListTitleArray = cspListTitle.split(' - ');
 
+console.log('event.payload.heListQuery:'+event.payload.heListQuery);
+console.log('event.payload.heListTitle:'+event.payload.heListTitle);
     // Get payload from handled event
     var passedQuery = event.payload.heListQuery;
     var passedTitle = event.payload.heListTitle;
-
+console.log('passedQuery:'+passedQuery);
+console.log('passedTitle:'+passedTitle);
     // Check to see if a Request type is passed in the payload
     // A Request type is passed when a radio button is selected
     if (passedQuery == 'legal' || passedQuery == 'facilities' || passedQuery == 'hr') {
@@ -80,14 +84,14 @@ function handler({
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-05 22:48:06</sys_created_on>
         <sys_id>4a23e12e838822104b56f6b6feaad3b9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Generate query and title</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_client_script_4a23e12e838822104b56f6b6feaad3b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-05 23:00:26</sys_updated_on>
+        <sys_updated_on>2025-03-05 23:41:36</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
