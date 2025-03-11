@@ -4445,7 +4445,7 @@
                                                 "gap": "var(--now-scalable-space--xxl)",
                                                 "grid-auto-columns": "1fr",
                                                 "grid-auto-rows": "1fr",
-                                                "grid-template-columns": "1fr 1fr 1fr",
+                                                "grid-template-columns": "1fr 1fr",
                                                 "grid-template-rows": "1fr",
                                                 "padding": "var(--now-scalable-space--xxl)",
                                                 "padding-bottom": "var(--now-scalable-space--xxl)",
@@ -5175,8 +5175,13 @@
         "eventMappings": [],
         "inputValues": {
             "UserNickName": {
-                "type": "JSON_LITERAL",
-                "value": "Da Man!"
+                "binding": {
+                    "address": [
+                        "rest_api_test_1",
+                        "output"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
             },
             "userFullName": {
                 "binding": {
@@ -5827,20 +5832,24 @@
         "eventMappings": [],
         "inputValues": {
             "encodedQuery": {
-                "type": "JSON_LITERAL",
-                "value": "u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true"
+                "binding": {
+                    "address": [
+                        "listQuery"
+                    ]
+                },
+                "type": "STATE_BINDING"
             },
             "limit": {
                 "type": "JSON_LITERAL",
-                "value": "1000"
+                "value": "10"
             },
             "offset": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": ""
             },
             "orderBy": {
                 "type": "JSON_LITERAL",
-                "value": "u_when_needed"
+                "value": "number"
             },
             "queryCategory": {
                 "type": "JSON_LITERAL",
@@ -5863,6 +5872,17 @@
                 "value": "x_58872_needit_needit"
             }
         },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "77b8d24083d422104b56f6b6feaad374",
+            "type": "TRANSFORM"
+        },
+        "elementId": "rest_api_test_1",
+        "elementLabel": "REST API Test 1",
+        "eventMappings": [],
+        "inputValues": {},
         "readEvaluationMode": "EAGER"
     }
 ]</data>
@@ -6196,14 +6216,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-04 18:41:05</sys_created_on>
         <sys_id>48a5a3ca8308e2104b56f6b6feaad333</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>159</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_48a5a3ca8308e2104b56f6b6feaad333</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 16:07:13</sys_updated_on>
+        <sys_updated_on>2025-03-10 18:40:13</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=48a5a3ca8308e2104b56f6b6feaad333"/>
 </record_update>
