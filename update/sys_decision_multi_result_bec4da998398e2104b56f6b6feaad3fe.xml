@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="NeedIt Test decision based on Request Type">ff9806198358e2104b56f6b6feaad326</decision_table>
+        <label>Result: true, Assigned to: Fred Luddy</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:08:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bec4da998398e2104b56f6b6feaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Result: true, Assigned to: Fred Luddy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_multi_result_bec4da998398e2104b56f6b6feaad3fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:08:11</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=bec4da998398e2104b56f6b6feaad3fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>bec4da998398e2104b56f6b6feaad3fe</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:08:11</sys_created_on>
+        <sys_id>b6c4da998398e2104b56f6b6feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:08:11</sys_updated_on>
+        <value>5137153cc611227c000bbd1bd8cd2005</value>
+        <variable display_value="Assigned to">9ac452d98398e2104b56f6b6feaad341</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>bec4da998398e2104b56f6b6feaad3fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:08:11</sys_created_on>
+        <sys_id>f2c4da998398e2104b56f6b6feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:08:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Result">3bae0e918398e2104b56f6b6feaad391</variable>
+    </sys_variable_value>
+</record_update>

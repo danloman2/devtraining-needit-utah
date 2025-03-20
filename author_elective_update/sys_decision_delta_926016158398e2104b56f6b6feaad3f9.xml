@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta">
+    <sys_decision_delta action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <delta/>
+        <description/>
+        <enable_publishing>false</enable_publishing>
+        <label/>
+        <name>NeedIt Test decision based on Request Type delta</name>
+        <parent display_value="NeedIt Test decision based on Request Type">ff9806198358e2104b56f6b6feaad326</parent>
+        <reference_qualifier/>
+        <status>draft</status>
+        <sys_class_name>sys_decision_delta</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 14:49:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>926016158398e2104b56f6b6feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Test decision based on Request Type delta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_delta_926016158398e2104b56f6b6feaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 14:49:02</sys_updated_on>
+    </sys_decision_delta>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a4c9f5a7db6ab594caf99027c5961907</instance_id>
+        <instance_name>dev221422</instance_name>
+        <name>sys_decision_delta_926016158398e2104b56f6b6feaad3f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta"><sys_decision_delta action="INSERT_OR_UPDATE"><access>public</access><active>false</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><delta/><description/><enable_publishing>false</enable_publishing><label/><name>NeedIt Test decision based on Request Type delta</name><parent display_value="NeedIt Test decision based on Request Type">ff9806198358e2104b56f6b6feaad326</parent><reference_qualifier/><status>draft</status><sys_class_name>sys_decision_delta</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 14:49:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>926016158398e2104b56f6b6feaad3f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Test decision based on Request Type delta</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_decision_delta_926016158398e2104b56f6b6feaad3f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 14:49:02</sys_updated_on></sys_decision_delta></record_update>]]></payload>
+        <payload_hash>1601718971</payload_hash>
+        <record_name>NeedIt Test decision based on Request Type delta</record_name>
+        <reverted_from/>
+        <source>4ec37c60830022104b56f6b6feaad3da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 14:49:02</sys_created_on>
+        <sys_id>5260d2558398e2104b56f6b6feaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19595214caa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 14:49:02</sys_updated_on>
+        <type>Delta Decision Table</type>
+        <update_guid>526016156098e210654f7310822afffb</update_guid>
+        <update_guid_history>526016156098e210654f7310822afffb:1601718971</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:08:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_delta">sys_decision_delta</sys_db_object>
+        <sys_id>6e9e051a4ff64c219c61a950a1ffd3c9</sys_id>
+        <sys_metadata>926016158398e2104b56f6b6feaad3f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Test decision based on Request Type delta</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_decision_delta_926016158398e2104b56f6b6feaad3f9</sys_update_name>
+        <sys_update_version display_value="sys_decision_delta_926016158398e2104b56f6b6feaad3f9">5260d2558398e2104b56f6b6feaad38f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:08:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

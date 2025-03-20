@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="NeedIt Test decision based on Request Type delta">926016158398e2104b56f6b6feaad3f9</decision_table>
+        <label>Result: true, Assigned to: Beth Anglin</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:07:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86b4de998398e2104b56f6b6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Result: true, Assigned to: Beth Anglin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_multi_result_86b4de998398e2104b56f6b6feaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:07:51</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=86b4de998398e2104b56f6b6feaad367"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>86b4de998398e2104b56f6b6feaad367</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:07:51</sys_created_on>
+        <sys_id>4eb4de998398e2104b56f6b6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:07:51</sys_updated_on>
+        <value>46d44a23a9fe19810012d100cca80666</value>
+        <variable display_value="Assigned to">b9b456598398e2104b56f6b6feaad31d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>86b4de998398e2104b56f6b6feaad367</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:07:51</sys_created_on>
+        <sys_id>8ab4de998398e2104b56f6b6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:07:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Result">9260d2558398e2104b56f6b6feaad3a9</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a4c9f5a7db6ab594caf99027c5961907</instance_id>
+        <instance_name>dev221422</instance_name>
+        <name>sys_decision_multi_result_86b4de998398e2104b56f6b6feaad367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="NeedIt Test decision based on Request Type delta">926016158398e2104b56f6b6feaad3f9</decision_table><label>Result: true, Assigned to: Beth Anglin</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 15:07:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>86b4de998398e2104b56f6b6feaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Result: true, Assigned to: Beth Anglin</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_decision_multi_result_86b4de998398e2104b56f6b6feaad367</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 15:07:51</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=86b4de998398e2104b56f6b6feaad367"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>86b4de998398e2104b56f6b6feaad367</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 15:07:51</sys_created_on><sys_id>4eb4de998398e2104b56f6b6feaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 15:07:51</sys_updated_on><value>46d44a23a9fe19810012d100cca80666</value><variable display_value="Assigned to">b9b456598398e2104b56f6b6feaad31d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>86b4de998398e2104b56f6b6feaad367</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 15:07:51</sys_created_on><sys_id>8ab4de998398e2104b56f6b6feaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 15:07:51</sys_updated_on><value>1</value><variable display_value="Result">9260d2558398e2104b56f6b6feaad3a9</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1816231701</payload_hash>
+        <record_name>Result: true, Assigned to: Beth Anglin</record_name>
+        <reverted_from/>
+        <source>4ec37c60830022104b56f6b6feaad3da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:07:51</sys_created_on>
+        <sys_id>0eb4de998398e2104b56f6b6feaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195953288b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:07:51</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>02b4de99cd98e2106c09d953dc4a7d69</update_guid>
+        <update_guid_history>02b4de99cd98e2106c09d953dc4a7d69:1816231701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:08:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>56a08c8e3462487c8cfd729e3e877164</sys_id>
+        <sys_metadata>86b4de998398e2104b56f6b6feaad367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Result: true, Assigned to: Beth Anglin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_86b4de998398e2104b56f6b6feaad367</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_86b4de998398e2104b56f6b6feaad367">0eb4de998398e2104b56f6b6feaad369</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:08:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
